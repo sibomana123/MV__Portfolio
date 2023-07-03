@@ -2,228 +2,93 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-color: #f1f1f1;
+  text-decoration: none;
+  list-style: none;
 }
 
 nav {
-  margin-left: -4rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  text-align: center;
   align-items: center;
-  background-color: white;
-  height: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 0;
+  height: 5rem;
 }
 
 .navbar__ul {
-  display: flex;
-  gap: 2rem;
+  display: none;
 }
 
-.navrbar__link {
-  margin-left: 23px;
-  list-style: none;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
+.menu {
   display: flex;
-  align-items: center;
-  text-align: center;
-  color: #344563;
+  width: 18px;
+  height: 12px;
 }
 
 .logo {
-  width: 76px;
-  height: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 20px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #6070ff;
-  text-decoration: none;
 }
 
-.navrbar__link a {
-  text-decoration: none;
-}
-
-.menu {
-  display: none;
-}
-
-.backg__image {
-  background-color: white;
-  width: 100%;
-  border-bottom-left-radius: 4rem;
-  position: absolute;
-  float: left;
-  top: 0;
-  z-index: -1;
-  padding-top: 5rem;
-  padding-bottom: 2rem;
-  height: 90vh;
-}
-
-.backg__image__phone {
-  display: none;
-  background-color: white;
+.social__media {
+  display: flex;
+  margin-top: 0.4rem;
+  padding: 0 1rem 1rem 2rem;
+  gap: 1rem;
 }
 
 .description {
-  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  background-image: url(img/header-shapes\ mobile@2x.svg);
+  background-repeat: no-repeat;
+  justify-content: flex-start;
+  border-bottom-left-radius: 6rem;
+  padding-top: 2rem;
 }
 
 .header {
-  position: relative;
-  padding-right: 2rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  padding-top: 99px;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
   align-items: center;
-  letter-spacing: 0.37px;
-  color: #091e42;
-  padding-left: 230px;
+  color: #172b4d;
+  padding: 2rem 2rem 1rem 2rem;
 }
 
 .parg {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  padding: 0 1rem 1rem 2rem;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 24px;
   color: #344563;
-  padding-left: 230px;
-  padding-right: 260px;
 }
 
 .let__go {
-  padding-top: 1.2rem;
-  padding-left: 230px;
-  padding-right: 260px;
-}
-
-.social__media {
-  display: flex;
-  padding-top: 1.2rem;
-  padding-left: 230px;
-  padding-right: 260px;
-}
-
-.social__media__link {
-  list-style: none;
-  margin-right: 1rem;
+  padding: 0 1rem 1rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .social__media__img {
-  width: 13px;
-  color: #505f79;
-}
-
-/* =================================MEDIA QUERIES ON (phones)============================ */
-@media screen and (max-width: 375px) {
-  nav {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-left: 0;
-  }
-
-  .navbar__ul {
-    display: none;
-  }
-
-  .menu {
-    display: flex;
-    width: 18px;
-    height: 12px;
-  }
-
-  .backg__image {
-    display: none;
-  }
-
-  .backg__image__phone {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    float: left;
-    margin-top: -35rem;
-    border-bottom-left-radius: 4rem;
-    z-index: -1;
-    padding-top: 2rem;
-  }
-
-  .logo {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6070ff;
-  }
-
-  .description {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 3rem;
-  }
-
-  .header {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 43px;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #172b4d;
-    padding: 0 2rem 1rem 2rem;
-  }
-
-  .parg {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    padding: 0 1rem 1rem 2rem;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-  }
-
-  .let__go {
-    padding: 0 1rem 1rem 2rem;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-  }
-
-  .social__media {
-    padding: 0 1rem 1rem 2rem;
-  }
-
-  .social__media__img {
-    width: 16px;
-    height: 16px;
-  }
+  width: 16px;
+  height: 16px;
 }
