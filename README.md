@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Hello Microverse Project</b></h3>
+  <h3><b>Port Microverse Project</b></h3>
 
 </div>
 
@@ -29,9 +29,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Microverse Portfolio] <a name="about-project"></a>
+# 📖 [Portfolio Project] <a name="about-project"></a>
 
-**[Microverse Portfolio]** This is a project that makes Micronauts learn about linter configurations and other project initial settings.
+**[Portfolio Project]** This is a project that makes Micronauts learn about linter configurations and other project initial settings.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,13 +60,18 @@ html, css, git, github and linters.
 - **[Clean Coded]**
 - **[Extendable and flexable]**
 
-In this project best coding practices is use
+In this project best coding practices is used
+
+ - [🚀 Live Demo](#live-demo] <br>
+ -<a href="#live">See live demo🚀</a>
+
+  
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
-1. Go to this URL link: https://github.com/sibomana123/MV__portfolio
+1. Go to this URL link: https://github.com/sibomana123/3/MV__Portfolio
 2. clone the repo and start working on it.
 
 ### Prerequisites
@@ -162,6 +167,15 @@ Your working browser.
 - GitHub:https://github.com/sibomana123
 - Twitter: https://twitter.com/imbwebwee
 
+ ## 🔭 Future Features <a name="future-features"></a>
+
+- [ ]  **[contact Me feature]**
+- [ ]  **[Desktop view]**
+- [ ]  **[Medium device view]**
+
+
+
+ In the future time I will use this setup to make my own Portfolio website where it's will include some features you can use to reach me out on My carrer
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -179,6 +193,6 @@ If you like this project, don't forget to star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
