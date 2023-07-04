@@ -122,6 +122,10 @@ nav {
   margin-bottom: 2rem;
 }
 
+.post__image {
+  display: none;
+}
+
 .post__img__mobile {
   display: flex;
   width: 100%;
@@ -240,6 +244,7 @@ nav {
 }
 
 /* ---------about me--------------- */
+
 .about__container {
   display: flex;
   flex-direction: column;
