@@ -158,7 +158,7 @@ to check for styling errors:
 
 You can deploy this project using:
 
-Your working browser.
+Your working browser 
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -168,22 +168,25 @@ Your working browser.
 - Twitter: https://twitter.com/imbwebwee
 
  ## 🔭 Future Features <a name="future-features"></a>
-- [ ]  **[contact Me feature]**
-- [ ]  **[Desktop view]**
-- [ ]  **[Medium device view]**
+- [ ]  **[javascript]**
+
  In the future time I will use this setup to make my own Portfolio website where it's will include some features you can use to reach me out on My carrer
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel Free to check https://github.com/sibomana123/MV__Portfolio/issues
 
+- [🙏 Acknowledgements](#acknowledgements)
+
+  I would like to thank @Uwi-cod and @Emmrd for her vast support andguidancee she provide to me  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, don't forget to star.
+If you like this project, don't forget to give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
