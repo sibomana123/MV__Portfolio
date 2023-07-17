@@ -1,0 +1,156 @@
+@media screen and (max-width: 375px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .menu {
+    margin-right: -9rem;
+  }
+
+  .navbar__ul {
+    display: none;
+    align-items: center;
+    height: 20px;
+  }
+
+  nav img {
+    display: block;
+  }
+
+  .description {
+    background-color: white;
+    background-image: url(img/header-shapes\ mobile@2x.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 6rem;
+    padding-bottom: 6rem;
+    margin-top: -0.1rem;
+  }
+
+  .header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    padding: 90px 50px 2px 50px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .parg {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #344563;
+    padding: 20px 50px 2px 50px;
+    font-size: 17px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+
+  .let__go {
+    padding: 1.2rem 50px 2px 50px;
+    color: #396df2;
+  }
+
+  .social__media {
+    display: flex;
+    padding: 10px 50px 2px 50px;
+  }
+
+  .social__media__link {
+    list-style: none;
+    margin-right: 1rem;
+  }
+
+  .social__media__img {
+    width: 13px;
+    color: #505f79;
+  }
+
+  /* =====================================POST============================== */
+
+  .post {
+    margin-top: 3rem;
+    background-color: #f1f1f1;
+    padding: 0 1rem;
+  }
+
+  .post__div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 3rem;
+    background-color: white;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  #mob {
+    display: none;
+  }
+
+  .post__side__description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+  }
+
+  .descr__header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    color: #091e42;
+  }
+
+  .descr__paragr {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .canopy__p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .canopy__ul {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .canopy__ul li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6b778c;
+  }
+
+  .canopy {
+    display: flex;
+    gap: 1rem;
+  }
+}
