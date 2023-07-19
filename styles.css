@@ -393,16 +393,16 @@ nav {
   bottom: 10rem;
 }
 
-.backgrnd {
+.contact__container .backgrnd {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-image: url(img/contact\ form\ shapes-mobile@2x.svg);
   background-position: top 20px right;
+  height: 140vh;
   background-repeat: no-repeat;
   background-color: #6070ff;
-  height: 139vh;
-  border-radius: 6rem 0 0 0;
+  border-top-left-radius: 6rem;
   width: 100%;
 }
 
@@ -495,5 +495,3 @@ textarea {
   border: 1px solid #7f8cff;
   color: #6070ff;
 }
-
-
