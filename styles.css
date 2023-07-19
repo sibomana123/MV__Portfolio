@@ -61,6 +61,7 @@ nav {
   padding-top: 2rem;
   background-color: white;
   height: 90vh;
+  margin-top: -0.1rem;
   margin-bottom: 5rem;
 }
 
@@ -246,6 +247,7 @@ nav {
 /* ---------about me--------------- */
 
 .about__container {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding-top: 6rem;
@@ -254,7 +256,7 @@ nav {
   padding-left: 2rem;
   padding-right: 2rem;
   border-top-right-radius: 6rem;
-  height: 150vh;
+  height: 170vh;
   margin-top: 5rem;
 }
 
@@ -380,3 +382,118 @@ nav {
   display: flex;
   padding: 1rem 0 1rem 0;
 }
+
+/* ======================CONTACT ME========================== */
+
+.contact__container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+  position: relative;
+  bottom: 10rem;
+}
+
+.backgrnd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(img/contact\ form\ shapes-mobile@2x.svg);
+  background-position: top 20px right;
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  height: 140vh;
+  border-radius: 6rem 0 0 0;
+  width: 100%;
+}
+
+.contact__container h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: white;
+  margin-top: -9rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact__container p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ebebff;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+}
+
+textarea {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  border: none;
+  padding: 15px;
+  outline: none;
+  border-radius: 7px;
+  resize: none;
+  width: 100%;
+  height: 170px;
+  margin-bottom: 1rem;
+}
+
+.get__in {
+  width: 130px;
+  text-align: center;
+  height: 48px;
+  border: 1px solid #6070ff;
+  background-color: #fff;
+  color: #396df2;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.2s;
+  font-family: "Poppins", sans-serif;
+}
+
+.get__in:hover {
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 0 19px rgba(64, 83, 252, 0.24);
+  transform: translateY(5px);
+  color: blue;
+}
+
+.get__in:active {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  color: #6070ff;
+}
+
+
