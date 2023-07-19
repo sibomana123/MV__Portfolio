@@ -4,10 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="desktopView.css">
-  <link rel="stylesheet" href="mediumDevice.css">
-  <link rel="stylesheet" href="smallDevice.css">
+  <script src="https://kit.fontawesome.com/39e3f91239.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="desktopVersion.css">
 </head>
 <body>
     <header>
@@ -64,9 +62,9 @@
           </p>
           <ul class="skills">
             <li class="skills__button"><button class="btn__skills">Html</button></li>
-            <li id="mob"  class="skills__button"><button class="btn__skills">Ruby on Rails</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
-            <li class="skills__button1"><button class="btn__skills">Javascript</button></li>
+            <li class="skills__button"><button class="btn__skills">Javascript</button></li>
+
           </ul>
        
           <button class="see__proj__btn"><a href="">See Project</a></button>
@@ -76,7 +74,7 @@
 
     <div class="post__div">
 
-              <div class="post__side__description">
+        <div class="post__side__description">
           <h1 class="descr__header">Multi-Post Stories</h1>
           <div class="canopy">
             <p class="canopy__p">CONOPY</p>
@@ -90,23 +88,25 @@
           </p>
           <ul class="skills">
             <li class="skills__button"><button class="btn__skills">Html</button></li>
-            <li id="mob"  class="skills__button"><button class="btn__skills">Ruby on Rails</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
-            <li class="skills__button1"><button class="btn__skills">Javascript</button></li>
+            <li class="skills__button"><button class="btn__skills">Javascript</button></li>
+
           </ul>
        
           <button class="see__proj__btn"><a href="">See Project</a></button>
       
         </div>
-        <div class="post__side__img">
+                <div class="post__side__img">
           <img class="post__img__mobile" src="img/Snapshoot Portfolio (1).svg" alt="">
+          
           <img class="post__image" src="img/Snapshoot Portfolio.svg" alt="">
-        </div>    
+        </div>
     </div>  
     
     <div class="post__div">
         <div class="post__side__img">
           <img class="post__img__mobile" src="img/Snapshoot Portfolio (2).svg" alt="">
+          
           <img class="post__image" src="img/Snapshoot Portfolio.svg" alt="">
         </div>
         <div class="post__side__description">
@@ -123,9 +123,9 @@
           </p>
           <ul class="skills">
             <li class="skills__button"><button class="btn__skills">Html</button></li>
-            <li id="mob" class="skills__button"><button class="btn__skills">Ruby on Rails</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
-            <li class="skills__button1"><button class="btn__skills">Javascript</button></li>
+            <li class="skills__button"><button class="btn__skills">Javascript</button></li>
+
           </ul>
        
           <button class="see__proj__btn"><a href="">See Project</a></button>
@@ -134,7 +134,8 @@
     </div> 
 
     <div class="post__div">
-              <div class="post__side__description">
+
+        <div class="post__side__description">
           <h1 class="descr__header">Multi-Post Stories</h1>
           <div class="canopy">
             <p class="canopy__p">CONOPY</p>
@@ -147,19 +148,18 @@
             A daily selection of privately personalized reads; no accounts or sign-ups required.
           </p>
           <ul class="skills">
-            <li  class="skills__button"><button class="btn__skills">Html</button></li>
-            <li id="mob"  class="skills__button"><button class="btn__skills">Ruby on Rails</button></li>
+            <li class="skills__button"><button class="btn__skills">Html</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
-            <li class="skills__button1"><button class="btn__skills">Javascript</button></li>
+            <li class="skills__button"><button class="btn__skills">Javascript</button></li>
+
           </ul>
           <button class="see__proj__btn"><a href="">See Project</a></button>
         </div>
         <div class="post__side__img">
           <img class="post__img__mobile" src="img/Snapshoot Portfolio (3).svg" alt="">
+          
           <img class="post__image" src="img/Snapshoot Portfolio.svg" alt="">
         </div>
-
-
     </div>     
     </div> 
 
@@ -221,15 +221,17 @@
   
   </div> 
 
-  <div class="contact__container">
-   <form action="">
+   <div class="contact__container">
+
+  <form action="">
     <h1>Contact Me</h1>
     <p>Contact me
       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
     </p>
-    <input type="text" name="Usename" placeholder="Enter your FullName">
+
+    <input type="text" name="Usename" maxlength="30" placeholder="Enter your username">
     <input type="email" placeholder="Enter Your Email" required>
-    <textarea name="message" cols="30"  rows="10"></textarea>
+    <textarea name="message"  rows="10" maxlength="500" placeholder="Write your Message Here..."></textarea>
     <button class="get__in">Get In Touch</button>
       
   </form>
