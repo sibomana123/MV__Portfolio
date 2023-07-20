@@ -3,23 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
+  <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/39e3f91239.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="desktopVersion.css">
 </head>
 <body>
     <header>
     <nav>
       <a class="logo"href="#homa">Emmabgra</a>
-      <ul class="navbar__ul">
+      <img class="menu" src="img/Union.svg" alt="">
+      <ul class="navbar__ul show__links">
         <li class="navrbar__link"><a href="#portfolio">Portfolio</a></li>
         <li class="navrbar__link"><a href="#about">About</a></li>
         <li class="navrbar__link"><a href="#contact">Contact</a></li>
       </ul>
-      <img class="menu" src="img/Union.svg" alt="">
     </nav>
+    <div class="togg">
+      
+    </div>
   </header>
- 
-    <section class="description">
+
+    <section class="description headline">
       <h1 class="header">I’m Emmanuel. <br>
         Glad to see you!</h1>
       <p class="parg">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
@@ -33,12 +37,14 @@
         <li class="social__media__link"><a href="#twitter"><img class="social__media__img" src="img/angellist.svg" alt=""></a></li>  
       </ul>
     </section>
+
   <section class="post">
     <div class="post__container">
+    <section class="post">
+     <div class="post__container">
       <div class="post__div">
         <div class="post__side__img">
           <img class="post__img__mobile" src="img/Snapshoot Portfolio.png" alt="">
-          
           <img class="post__image" src="img/Snapshoot Portfolio.svg" alt="">
         </div>
         <div class="post__side__description">
@@ -56,7 +62,8 @@
           <ul class="skills">
             <li class="skills__button"><button class="btn__skills">Html</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
-            <li class="skills__button1"><button class="btn__skills">Javascript</button></li>
+            <li class="skills__button"><button class="btn__skills">Javascript</button></li>
+
           </ul>
        
           <button class="see__proj__btn"><a href="">See Project</a></button>
@@ -64,12 +71,9 @@
         </div>
       </div>
 
+      
     <div class="post__div">
-        <div class="post__side__img">
-          <img class="post__img__mobile" src="img/Snapshoot Portfolio (1).svg" alt="">
-          
-          <img class="post__image" src="img/Snapshoot Portfolio.svg" alt="">
-        </div>
+
         <div class="post__side__description">
           <h1 class="descr__header">Multi-Post Stories</h1>
           <div class="canopy">
@@ -85,11 +89,17 @@
           <ul class="skills">
             <li class="skills__button"><button class="btn__skills">Html</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
-            <li class="skills__button1"><button class="btn__skills">Javascript</button></li>
+            <li class="skills__button"><button class="btn__skills">Javascript</button></li>
+
           </ul>
        
           <button class="see__proj__btn"><a href="">See Project</a></button>
       
+        </div>
+                <div class="post__side__img">
+          <img class="post__img__mobile" src="img/Snapshoot Portfolio (1).svg" alt="">
+          
+          <img class="post__image" src="img/Snapshoot Portfolio.svg" alt="">
         </div>
     </div>  
     
@@ -114,7 +124,8 @@
           <ul class="skills">
             <li class="skills__button"><button class="btn__skills">Html</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
-            <li class="skills__button1"><button class="btn__skills">Javascript</button></li>
+            <li class="skills__button"><button class="btn__skills">Javascript</button></li>
+
           </ul>
        
           <button class="see__proj__btn"><a href="">See Project</a></button>
@@ -123,11 +134,7 @@
     </div> 
 
     <div class="post__div">
-        <div class="post__side__img">
-          <img class="post__img__mobile" src="img/Snapshoot Portfolio (3).svg" alt="">
-          
-          <img class="post__image" src="img/Snapshoot Portfolio.svg" alt="">
-        </div>
+
         <div class="post__side__description">
           <h1 class="descr__header">Multi-Post Stories</h1>
           <div class="canopy">
@@ -143,17 +150,23 @@
           <ul class="skills">
             <li class="skills__button"><button class="btn__skills">Html</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
-            <li class="skills__button1"><button class="btn__skills">Javascript</button></li>
+            <li class="skills__button"><button class="btn__skills">Javascript</button></li>
+
           </ul>
           <button class="see__proj__btn"><a href="">See Project</a></button>
         </div>
-    </div>     
-    </div> 
-
+        <div class="post__side__img">
+          <img class="post__img__mobile" src="img/Snapshoot Portfolio (3).svg" alt="">
+          
+          <img class="post__image" src="img/Snapshoot Portfolio.svg" alt="">
+        </div>
+    </div>  
+   
+  </div> 
     
  </section> 
 
- <section class="about">
+ <section id="about">
    <div class="about__container">
      <div class="about__container_left">
       <h1>About Myself </h1>
@@ -173,8 +186,8 @@
 
      <div class="about__container_right">
       <div class="lang__header">
-        <h1>Languages</h1>
-        <img src="img/Disabled.svg" alt="">
+        <h2>Languages</h2>
+        <img class="arrow" src="img/Disabled.svg" alt="">
       </div>
       <div class="lang__container">
         <div class="lang__container__type">
@@ -195,21 +208,27 @@
 
       <div class="framework">
         <span>FrameWork</span>
-        <img src="img/Icon - Chevron - Right - Larger.svg" alt="">
+        <img class="arrow" src="img/Icon - Chevron - Right - Larger.svg" alt="">
 
       </div>
       <div class="framework">
         <span>Skills</span>
-        <img src="img/Icon - Chevron - Right - Larger.svg" alt="">
+        <img class="arrow" src="img/Icon - Chevron - Right - Larger.svg" alt="">
       </div>
 
     </div>  
+  
   </div> 
+
 </section>    
 
 <section class="contact__container">
   <div class="backgrnd">
     <h3>Contact Me</h3>
+   <div class="contact__container">
+
+  <form action="">
+    <h1>Contact Me</h1>
     <p>Contact me
       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
     </p>
@@ -222,5 +241,13 @@
   </form>
   </div>
   </section>
+    <input type="text" name="Usename" maxlength="30" placeholder="Enter your username">
+    <input type="email" placeholder="Enter Your Email" required>
+    <textarea name="message"  rows="10" maxlength="500" placeholder="Write your Message Here..."></textarea>
+    <button class="get__in">Get In Touch</button>
+      
+  </form>
+ </div>
+ </section>    
 </body>
 </html>
