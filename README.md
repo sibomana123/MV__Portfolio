@@ -25,8 +25,7 @@
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [🙏 Acknowledgements](#acknowledgements)  
 - [📝 License](#license)
 
 # 📖 [Portfolio Project] <a name="about-project"></a>
@@ -62,8 +61,8 @@ html, css, git, github and linters.
 
 In this project best coding practices is used
 
- - [🚀 Live Demo](#live-demo] <br>
-  -  Not yet   <a href="#live">See live demo🚀</a>
+ - [🚀 Live Demo] <br>
+  -  Not yet 
 
   
 

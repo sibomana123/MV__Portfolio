@@ -250,14 +250,12 @@ nav {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding-top: 6rem;
-  gap: 2rem;
+  gap: 88px;
   background-color: white;
-  padding-left: 2rem;
-  padding-right: 2rem;
   border-top-right-radius: 6rem;
-  height: 170vh;
+  height: 1280px;
   margin-top: 5rem;
+  padding: 114px 24px;
 }
 
 .about__container h1 {
@@ -388,9 +386,10 @@ nav {
 .contact__container {
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 5rem;
+  margin-top: 5rem;
   position: relative;
-  bottom: 10rem;
+  height: 779px;
+  bottom: 159px;
 }
 
 .contact__container .backgrnd {
@@ -398,7 +397,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   background-image: url(img/contact\ form\ shapes-mobile@2x.svg);
-  background-position: top 20px right;
+  background-position: top 48px right;
   height: 140vh;
   background-repeat: no-repeat;
   background-color: #6070ff;
@@ -406,7 +405,7 @@ nav {
   width: 100%;
 }
 
-.contact__container h1 {
+.contact__container h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -414,7 +413,8 @@ nav {
   letter-spacing: 0;
   text-align: center;
   color: white;
-  margin-top: -9rem;
+  margin-top: -2rem;
+  padding: 103px 24px 0 24;
 }
 
 form {
@@ -483,15 +483,15 @@ textarea {
 
 .get__in:hover {
   cursor: pointer;
-  background-color: #fff;
-  box-shadow: 0 0 19px rgba(64, 83, 252, 0.24);
-  transform: translateY(5px);
-  color: blue;
+  background-color: #6070ff;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+  letter-spacing: 0.51px;
 }
 
-.get__in:active {
-  cursor: pointer;
-  background-color: #fff;
-  border: 1px solid #7f8cff;
-  color: #6070ff;
-}
+

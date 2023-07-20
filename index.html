@@ -33,7 +33,7 @@
         <li class="social__media__link"><a href="#twitter"><img class="social__media__img" src="img/angellist.svg" alt=""></a></li>  
       </ul>
     </section>
-        <section class="post">
+  <section class="post">
     <div class="post__container">
       <div class="post__div">
         <div class="post__side__img">
@@ -205,22 +205,22 @@
 
     </div>  
   </div> 
+</section>    
 
-<div class="contact__container">
+<section class="contact__container">
   <div class="backgrnd">
-    <h1>Contact Me</h1>
+    <h3>Contact Me</h3>
     <p>Contact me
       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
     </p>
 
-  <form action="">
-    <input type="text" maxlength="30" name="Usename" placeholder="Enter your username">
+  <form action="https://formspree.io/f/{form_id}" method="POST">
+    <input type="text" maxlength="30" name="Usename" placeholder="Enter your username" required>
     <input type="email" placeholder="Enter Your Email" required>
-    <textarea name="message" maxlength="500" rows="10" placeholder="Write your Message Here..."></textarea>
-    <button class="get__in">Get In Touch</button>  
+    <textarea name="message" maxlength="500" rows="10" placeholder="Write your Message Here..." required></textarea>
+    <button class="get__in" type="submit">Get In Touch</button>  
   </form>
   </div>
-  </div>
-</section>       
+  </section>
 </body>
 </html>
