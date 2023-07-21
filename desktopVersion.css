@@ -515,7 +515,6 @@ textarea {
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
- 
   * {
     margin: 0;
     padding: 0;
@@ -1062,5 +1061,5 @@ textarea {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.51px;
-  } 
+  }
 }
