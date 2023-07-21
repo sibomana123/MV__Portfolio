@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   * {
     margin: 0;
     padding: 0;
@@ -56,12 +56,13 @@
     display: flex;
     flex-direction: column;
     background-image: url(img/header-shapes\ mobile@2x.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     justify-content: flex-start;
     border-bottom-left-radius: 6rem;
     padding-top: 2rem;
     background-color: white;
-    height: 90vh;
+    height: 140vh;
     margin-top: -0.1rem;
     margin-bottom: 5rem;
   }
@@ -75,7 +76,7 @@
     display: flex;
     align-items: center;
     color: #172b4d;
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 5rem 2rem 1rem 2rem;
   }
 
   .parg {
@@ -505,7 +506,6 @@
     background-color: #fff;
     color: #396df2;
     border-radius: 8px;
-    margin-left: -10.5rem;
     font-weight: 500;
     font-size: 15px;
     transition: 0.2s;
