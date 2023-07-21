@@ -514,7 +514,8 @@ textarea {
   letter-spacing: 0.51px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
+ 
   * {
     margin: 0;
     padding: 0;
@@ -564,7 +565,7 @@ textarea {
   .social__media {
     display: flex;
     margin-top: 0.4rem;
-    padding: 0 6rem 1rem 6rem;
+    padding: 0 1rem 1rem 2rem;
     gap: 1rem;
   }
 
@@ -578,7 +579,7 @@ textarea {
     border-bottom-left-radius: 6rem;
     padding-top: 2rem;
     background-color: white;
-    height: 120vh;
+    height: 140vh;
     margin-top: -0.1rem;
     margin-bottom: 5rem;
   }
@@ -592,13 +593,13 @@ textarea {
     display: flex;
     align-items: center;
     color: #172b4d;
-    padding: 9rem 6rem 1rem 6rem;
+    padding: 7rem 2rem 1rem 2rem;
   }
 
   .parg {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    padding: 0 6rem 1rem 6rem;
+    padding: 0 1rem 1rem 2rem;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -606,7 +607,7 @@ textarea {
   }
 
   .let__go {
-    padding: 0 6rem 1rem 6rem;
+    padding: 0 1rem 1rem 2rem;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -625,7 +626,7 @@ textarea {
   .post {
     margin-top: 3rem;
     background-color: #f1f1f1;
-    padding: 34px;
+    padding: 24px;
   }
 
   .post__div {
@@ -762,7 +763,7 @@ textarea {
     border-top-right-radius: 6rem;
     height: 1263px;
     margin-top: 5rem;
-    padding: 0 34px;
+    padding: 0 24px;
   }
 
   .about__container_left {
@@ -1061,5 +1062,5 @@ textarea {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.51px;
-  }
+  } 
 }
