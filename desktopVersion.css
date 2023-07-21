@@ -245,6 +245,18 @@ nav {
   border: 1px solid #6070ff;
 }
 
+.see__proj__btn:hover {
+  transition: 1s ease-out;
+  transform: scale(0.6);
+  background-color: #396df2;
+  color: #4053FC3D;
+}
+
+.see__proj__btn a:hover {
+  color: white;
+
+}
+
 .see__proj__btn a {
   font-family: "Poppins", sans-serif;
   font-size: 17px;
@@ -326,30 +338,51 @@ nav {
   border-radius: 8px;
 }
 
-.resume {
-  padding: 0 2px;
-  display: flex;
-  justify-content: center;
-  border-radius: 8px;
-  width: 162px;
-  height: 48px;
-  margin-top: 1.4rem;
-  background-color: transparent;
-  border: 1px solid #6070ff;
-}
 
 .resume_btn {
   font-family: "Poppins", sans-serif;
-  color: #396df2;
-  font-weight: 500;
-  text-align: center;
   background: transparent;
-  line-height: 24px;
-  border: none;
+  text-align: center;
+  width: 162px;
+  height: 48px;
+  margin-top: 1.4rem;
+  font-weight: 500;
   font-size: 17px;
+  line-height: 24px;
+  border-radius: 8px;
   letter-spacing: 0.03em;
+  color: #396df2;
+  border: 1px solid #6070ff;
   cursor: pointer;
 }
+
+.resume_btn:hover {
+  background-color: #396df2;
+  color: white;
+  transition: 1s ease-in-out;
+  transform: scaleX(0.6);
+  /* transform: translate(90deg); */
+  /* animation: flipright 300ms ease forwards;
+  transform-origin:right ;
+  /* animation-duration: 1s; */ 
+
+  /* transition: 1s ease-in-out; */
+  /* transform: scale(-0.1, 1); */
+  /* transform: scale(0.5); */
+  /* transform: scale(0.1, 0.7); */
+  /* height: 100px; */
+}
+
+/* @keyframes flipright {
+  0%{
+
+  }
+  100% {
+
+  }
+} */
+
+
 
 .lang__header {
   display: flex;
@@ -512,6 +545,12 @@ textarea {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
+}
+
+.get__in:hover {
+  background-color: aqua;
+  transform: scale(0.6);
+  transition: 1s ease-in;
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
@@ -825,7 +864,6 @@ textarea {
     height: 48px;
     margin-top: 1.4rem;
     background-color: transparent;
-    border: 1px solid #6070ff;
   }
 
   .resume_btn {
@@ -836,10 +874,6 @@ textarea {
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
-  }
-
-  .resume:hover {
-    background-color: #6070ff;
   }
 
   .resume_btn:hover {
