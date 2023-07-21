@@ -260,15 +260,15 @@ nav {
 /* =======================END OF POST========================= */
 
 #about {
-  position: relative;
   background-color: white;
   border-top-right-radius: 6rem;
+  height: 824px;
+  padding-top: 60px;
 }
 
 .about__container {
   display: flex;
   justify-content: flex-start;
-  margin-top: 5rem;
   gap: 4%;
   padding: 4rem;
 }
@@ -418,6 +418,7 @@ nav {
 /* ========================CONTACT ME=========================== */
 
 .contact__container {
+  position: relative;
   background-image: url(img/contact\ form\ background\ shapes.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -428,6 +429,8 @@ nav {
   background-color: #6070ff;
   border-top-left-radius: 6rem;
   padding: 142px 320px;
+  margin-top: -14rem;
+  height: 840px;
 }
 
 form {
