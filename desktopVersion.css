@@ -67,7 +67,7 @@ nav {
   letter-spacing: 0.37px;
   color: #091e42;
   padding: 150px 150px 2px 200px;
-  font-size: 48px;
+  font-size: 4px;
   text-align: left;
   line-height: 60px;
 }
@@ -249,24 +249,13 @@ nav {
   transition: 1s ease-out;
   transform: scale(0.6);
   background-color: #396df2;
-  color: #4053FC3D;
+  color: #4053fc3d;
 }
 
 .see__proj__btn a:hover {
   color: white;
-
 }
 
-.see__proj__btn a {
-  font-family: "Poppins", sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #396df2;
-  cursor: pointer;
-}
 
 /* =======================END OF POST========================= */
 
@@ -338,7 +327,6 @@ nav {
   border-radius: 8px;
 }
 
-
 .resume_btn {
   font-family: "Poppins", sans-serif;
   background: transparent;
@@ -361,15 +349,21 @@ nav {
   color: white;
   transition: 1s ease-in-out;
   transform: scaleX(0.6);
+
   /* transform: translate(90deg); */
+
   /* animation: flipright 300ms ease forwards;
   transform-origin:right ;
-  /* animation-duration: 1s; */ 
+  /* animation-duration: 1s; */
 
   /* transition: 1s ease-in-out; */
+
   /* transform: scale(-0.1, 1); */
+
   /* transform: scale(0.5); */
+
   /* transform: scale(0.1, 0.7); */
+
   /* height: 100px; */
 }
 
@@ -381,8 +375,6 @@ nav {
 
   }
 } */
-
-
 
 .lang__header {
   display: flex;
