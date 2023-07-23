@@ -45,19 +45,40 @@ nav {
   color: #344563;
 }
 
+/* ================TRANSITION ON NAV LINK=================== */
+
+.navbar__ul li::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(194, 55, 55);
+  transition: width 0.3s;
+}
+
+.navbar__ul li:hover::after {
+  width: 100%;
+}
+
+/* ================END TRANSITION ON NAV LINK=================== */
+
 .menu {
   display: none;
 }
 
 .description {
   background-color: white;
-  background-image: url(img/Header\ bg.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
   border-bottom-left-radius: 6rem;
   padding-bottom: 4rem;
-  height: 700px;
+  height: 110vh;
   margin-top: -0.1rem;
+}
+
+.backImg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(img/Header\ bg.svg);
+  height: 110vh;
 }
 
 .header {
@@ -67,9 +88,18 @@ nav {
   letter-spacing: 0.37px;
   color: #091e42;
   padding: 150px 150px 2px 200px;
-  font-size: 4px;
+  font-size: 48px;
   text-align: left;
   line-height: 60px;
+}
+
+.header:hover {
+  transition: ease 1s;
+  transform: scale(0.9, 0.7);
+  cursor: grab;
+  background: linear-gradient(to right, hsl(0, 86%, 50%), #6323ed);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .parg {
@@ -106,6 +136,14 @@ nav {
   height: 20px;
   width: 20px;
 }
+
+/* ===========transition on social media============= */
+.social__media__link:hover {
+  transform: rotate(30deg);
+}
+
+
+/* ===========end transition on social media============= */
 
 .social__media__img {
   width: 13px;
@@ -211,16 +249,12 @@ nav {
   gap: 8px;
 }
 
-.skills__button {
-  display: flex;
+.btn__skills {
   background-color: #ebebff;
   padding: 5px 12px;
   height: 35px;
   border-radius: 8px;
   width: auto;
-}
-
-.btn__skills {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
   font-weight: 500;
@@ -228,8 +262,14 @@ nav {
   letter-spacing: 0.03em;
   text-align: left;
   color: #6070ff;
-  background: transparent;
   border: none;
+}
+
+.btn__skills:hover {
+  background-color: #396df2;
+  color: white;
+  transition: ease-in 1s;
+  transform: scale(1.1);
 }
 
 .skills__button,
@@ -238,24 +278,26 @@ nav {
 }
 
 .see__proj__btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #396df2;
   padding: 12px;
   border-radius: 8px;
   width: 126px;
-  background-color: transparent;
   border: 1px solid #6070ff;
 }
 
 .see__proj__btn:hover {
-  transition: 1s ease-out;
-  transform: scale(0.6);
+  transition: ease 1s;
   background-color: #396df2;
-  color: #4053fc3d;
-}
-
-.see__proj__btn a:hover {
+  transform: scale(0.8);
   color: white;
 }
-
 
 /* =======================END OF POST========================= */
 
@@ -321,6 +363,10 @@ nav {
   list-style: none;
 }
 
+.social__media__lin:hover {
+  transform: rotate(30deg);
+}
+
 .social__media__imag {
   width: 23px;
   height: 14px;
@@ -349,32 +395,7 @@ nav {
   color: white;
   transition: 1s ease-in-out;
   transform: scaleX(0.6);
-
-  /* transform: translate(90deg); */
-
-  /* animation: flipright 300ms ease forwards;
-  transform-origin:right ;
-  /* animation-duration: 1s; */
-
-  /* transition: 1s ease-in-out; */
-
-  /* transform: scale(-0.1, 1); */
-
-  /* transform: scale(0.5); */
-
-  /* transform: scale(0.1, 0.7); */
-
-  /* height: 100px; */
 }
-
-/* @keyframes flipright {
-  0%{
-
-  }
-  100% {
-
-  }
-} */
 
 .lang__header {
   display: flex;
@@ -457,7 +478,7 @@ nav {
   height: 840px;
 }
 
-form {
+.form__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -545,7 +566,7 @@ textarea {
   transition: 1s ease-in;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 100px) and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -602,16 +623,19 @@ textarea {
   .description {
     display: flex;
     flex-direction: column;
-    background-image: url(img/header-shapes\ mobile@2x.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
     justify-content: flex-start;
     border-bottom-left-radius: 6rem;
-    padding-top: 2rem;
     background-color: white;
-    height: 140vh;
     margin-top: -0.1rem;
-    margin-bottom: 5rem;
+    padding-bottom: 10rem;
+    height: auto;
+  }
+
+  .backImg {
+    background-image: url(img/header-shapes\ mobile@2x.svg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .header {
@@ -666,7 +690,7 @@ textarea {
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 15px;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
 
   .post__img__mobile {
@@ -756,31 +780,26 @@ textarea {
   }
 
   .see__proj__btn {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-family: "Poppins", sans-serif;
     font-size: 17px;
-    background: #fff;
-    border: 1px solid #6070ff;
-    border-radius: 0.6rem;
-    margin-top: 1.2rem;
-    padding: 8px;
-    width: 6.6rem;
-    height: 2.7rem;
-    line-height: 24px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-  }
-
-  .see__proj__btn a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    cursor: pointer;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
     color: #396df2;
+    padding: 12px;
+    border-radius: 8px;
+    width: 126px;
+    border: 1px solid #6070ff;
+    background-color: transparent;
+  }
+
+  .btn__skills:hover {
+    background-color: #396df2;
+    color: white;
+    transition: ease-in 1s;
+    transform: scale(1.1);
   }
 
   /* ---------about me--------------- */
@@ -956,7 +975,7 @@ textarea {
     flex-direction: column;
     justify-content: center;
     background-image: url(img/contact\ form\ shapes-mobile@2x.svg);
-    background-position: top 21px right;
+    background-position: top 45px right;
     height: 779px;
     background-repeat: no-repeat;
     background-color: #6070ff;
@@ -971,11 +990,12 @@ textarea {
     background-color: #6070ff;
     border-top-left-radius: 6rem;
     padding: 0;
-    height: 924px;
-    margin-top: 20rem;
+    height: 920px;
+    margin-top: 19rem;
+    gap: 20px;
   }
 
-  form {
+  .form__container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1005,7 +1025,7 @@ textarea {
     text-align: center;
     color: #ebebff;
     padding: 1rem 2rem;
-    margin-bottom: 6rem;
+    margin-bottom: 7rem;
     width: 100%;
   }
 
@@ -1042,6 +1062,7 @@ textarea {
   }
 
   .get__in {
+    font-family: "Poppins", sans-serif;
     width: 130px;
     height: 48px;
     border: 1px solid #6070ff;
@@ -1050,14 +1071,14 @@ textarea {
     border-radius: 8px;
     font-weight: 500;
     font-size: 15px;
-    transition: 0.2s;
-    font-family: "Poppins", sans-serif;
+    margin-right: 6rem;
   }
 
   .get__in:hover {
     cursor: pointer;
-    background-color: #6070ff;
     color: white;
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
@@ -1065,6 +1086,7 @@ textarea {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.51px;
+    background-color: gray;
   }
 
   .get__in:active {
