@@ -32,6 +32,10 @@
 
 **[Portfolio Project]** This is a project that makes Micronauts learn about linter configurations and other project initial settings.
 
+**[Portfolio Presentation]**Hi there! My name is Emmanuel, and I'm excited to share with you a project I worked on last year called Portifolio In this video, I'll be discussing the most important aspects of this project, the skills I gained, the challenges I faced, and the future promise it holds. A portfolio is a powerful tool for developers, allowing clients to see your skills and previous projects. Throughout this project, I learned about CSS, HTML, semantic tags, responsive design, and debugging techniques. I also encountered challenges such as time management and lack of experience, but I'll share advice on how to overcome them. Lastly, I'll mention some additional features and how you can find the project on my GitHub account. Thank you for watching!
+
+https://github.com/sibomana123/MV__Portfolio/assets/113997349/c31bdf54-9ac0-4b25-a355-b2c4c1ae2407
+
 ## 🛠 Built With <a name="built-with"></a>
 
 html, css, git, github and linters.
