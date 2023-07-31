@@ -10,6 +10,6 @@ closeMenu.addEventListener('click', () => {
   navLink.classList.remove('openNav');
 });
 
-mobNavbar.addEventListener('click', (event) => {
+mobNavbar.addEventListener('click', () => {
   navLink.classList.remove('openNav');
 });
