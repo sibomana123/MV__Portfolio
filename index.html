@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <script src="https://kit.fontawesome.com/39e3f91239.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="desktopVersion.css">
-  <link rel="stylesheet" href="small_version.css">
-  <link rel="stylesheet" href="mobile_version.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
-    <nav>
-      <a class="logo"href="#homa">Emmabgra</a>
-      <img class="menu" src="img/Union.svg" alt="">
-      <ul class="navbar__ul show__links">
-        <li class="navrbar__link"><a href="#portfolio">Portfolio</a></li>
-        <li class="navrbar__link"><a href="#about">About</a></li>
-        <li class="navrbar__link"><a href="#contact">Contact</a></li>
+      <nav class="nav">
+        <a class="logo"href="#homa">Emmabgra</a>
+        <img class="menu" src="img/Union.svg" alt="">
+       <ul class="navbar__ul">
+        <i class="fa-solid fa-xmark"></i>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
-    </nav>
-    <div class="togg">
-      
-    </div>
-  </header>
+     </nav>
+    </header>
+
+
+                      <!-- ============HEADLINE SECTION ========================= -->
 
     <section class="description headline">
       <div class="backImg">
@@ -41,7 +41,7 @@
       </ul>
     </div>
     </section>
-
+                       <!-- =============POST SECTION==================== -->
     
     <section class="post">
      <div class="post__container">
@@ -69,11 +69,8 @@
             <li class="skills__button"><button class="btn__skills">Javascript</button></li>
 
           </ul>
-       
             <button class="see__proj__btn" >See Project</button>
-      
         </div>
-
       </div>
 
       <div class="post__div">
@@ -93,18 +90,14 @@
             <li class="skills__button"><button class="btn__skills">Html</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
             <li class="skills__button"><button class="btn__skills">Javascript</button></li>
-
           </ul>
-       
           <button class="see__proj__btn" >See Project</button>
-      
         </div>
-
         <div class="post__side__img">
           <img class="post__img__mobile" src="img/Snapshoot Portfolio (2).svg" alt="">
         </div>        
-
       </div>
+
       
       <div class="post__div">
         <div class="post__side__img">
@@ -245,5 +238,6 @@
     </div>
  </section>
 
+<script src="utility/menu.js"></script>
 </body>
 </html>

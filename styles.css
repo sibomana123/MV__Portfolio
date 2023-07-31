@@ -8,17 +8,32 @@
 
 body {
   background-color: #f1f1f1f1;
+  opacity: 0.8;
 }
 
-nav {
-  display: flex;
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   justify-content: space-around;
-  background-color: white;
-  align-items: center;
-  padding: 1rem;
 }
 
-.logo {
+.nav,
+.nav .navbar__ul {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav .logo {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -28,14 +43,12 @@ nav {
   color: #6070ff;
 }
 
-.navbar__ul {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  height: 20px;
+.nav .navbar__ul {
+  gap: 3rem;
+  list-style: none;
 }
 
-.navbar__ul li {
+.nav .navbar__ul a {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -43,6 +56,11 @@ nav {
   letter-spacing: 0;
   text-align: center;
   color: #344563;
+}
+
+.nav .menu,
+.nav .fa-xmark {
+  display: none;
 }
 
 /* ================TRANSITION ON NAV LINK=================== */
@@ -61,10 +79,6 @@ nav {
 }
 
 /* ================END TRANSITION ON NAV LINK=================== */
-
-.menu {
-  display: none;
-}
 
 .description {
   background-color: white;
@@ -268,7 +282,7 @@ nav {
 .btn__skills:hover {
   background-color: #396df2;
   color: white;
-  transition: ease-in 1s;
+  transition: ease-in 0.1s;
   transform: scale(1.1);
 }
 
@@ -293,7 +307,7 @@ nav {
 }
 
 .see__proj__btn:hover {
-  transition: ease 1s;
+  transition: ease 0.5s;
   background-color: #396df2;
   transform: scale(0.8);
   color: white;
@@ -393,8 +407,8 @@ nav {
 .resume_btn:hover {
   background-color: #396df2;
   color: white;
-  transition: 1s ease-in-out;
-  transform: scaleX(0.6);
+  transition: 0.1s ease-in-out;
+  transform: scale(0.7);
 }
 
 .lang__header {
@@ -561,51 +575,30 @@ textarea {
 }
 
 .get__in:hover {
-  background-color: aqua;
-  transform: scale(0.6);
-  transition: 1s ease-in;
+  background-color: #dfe1e6;
+  transform: scale(1.1);
+  transition: 0.1s ease-in;
 }
 
-@media screen and (min-width: 100px) and (max-width: 768px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-  }
-
-  body {
-    background-color: #f1f1f1f1;
-  }
-
-  nav {
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  /* =================MENU HANDLE===================== */
+  .nav {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-left: 0;
-    height: 5rem;
-    background-color: white;
+    padding: 1.5rem 3rem;
   }
 
-  .navbar__ul {
-    display: none;
+  .nav .menu,
+  .nav .fa-xmark {
+    display: block;
+    font-size: 40px;
   }
 
-  .menu {
-    display: flex;
-    width: 18px;
-    height: 12px;
-  }
-
-  .logo {
+  .nav > .logo {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 26px;
     line-height: 20px;
     display: flex;
     align-items: center;
@@ -613,12 +606,61 @@ textarea {
     color: #6070ff;
   }
 
-  .social__media {
+  .nav .navbar__ul {
+    position: fixed;
+    left: 0;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
     display: flex;
-    margin-top: 0.4rem;
-    padding: 0 1rem 1rem 2rem;
-    gap: 1rem;
+    justify-content: flex-start;
+    align-items: start;
+    background-color: #396df2;
+    padding: 7rem 5rem;
+    gap: 3rem;
+    transition: all 0.4s ease;
+    z-index: 100;
   }
+
+  .nav .navbar__ul a {
+    color: white;
+    font-size: 36px;
+  }
+
+  .nav.openNav .navbar__ul {
+    top: 0;
+    animation: flipNav 1s ease forwards;
+    transform-origin: top;
+    width: 100%;
+  }
+
+  @keyframes flipNav {
+    0% {
+      transform: rotateX(90deg);
+    }
+
+    100% {
+      transform: rotateX(0deg);
+    }
+  }
+
+  .nav .menu {
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  .nav .fa-xmark {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  /* =================END OF MENU HANDLE===================== */
 
   .description {
     display: flex;
@@ -668,6 +710,13 @@ textarea {
     font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
+  }
+
+  .social__media {
+    display: flex;
+    margin-top: 0.4rem;
+    padding: 0 1rem 1rem 2rem;
+    gap: 1rem;
   }
 
   .social__media__img {
@@ -1013,7 +1062,7 @@ textarea {
     margin-top: 5rem;
     color: white;
     width: 100%;
-    padding: 0 24px 0 24;
+    padding: 0 24px 0 24px;
   }
 
   .contact__container p {
