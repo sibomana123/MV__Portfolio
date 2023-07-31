@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Port Microverse Project</b></h3>
+  <h3><b>Portfolio Project</b></h3>
 
 </div>
 
