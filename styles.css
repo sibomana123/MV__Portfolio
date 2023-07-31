@@ -616,8 +616,11 @@ textarea {
     display: flex;
     justify-content: flex-start;
     align-items: start;
-    background-color: #396df2;
-    padding: 7rem 5rem;
+    background: #6070ffd7;
+    backdrop-filter: blur(2px);
+    backdrop-filter: brightness(60%);
+    backdrop-filter: opacity(20%);
+    padding: 5rem 2rem;
     gap: 3rem;
     transition: all 0.4s ease;
     z-index: 100;
