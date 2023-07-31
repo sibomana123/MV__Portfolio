@@ -1,9 +1,14 @@
 <a name="readme-top"></a>
+
 <div align="center">
   <br/>
-  <h3><b>Portfolio Microverse Project</b></h3>
+
+  <h3><b>Portfolio Project</b></h3>
+
 </div>
+
 # 📗 Table of Contents
+
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -22,9 +27,16 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)  
 - [📝 License](#license)
+
 # 📖 [Portfolio Project] <a name="about-project"></a>
 
 **[Portfolio Project]** These portfolio projects are beginner-friendly websites created using HTML, CSS, and JavaScript appear only on when you click menu icon. They follow best practices like using linters for debugging and GitFlow rules for version control. The projects showcase responsiveness, adapting to different devices. They offer an excellent learning experience, empowering beginners to hone their web development skills while building attractive and functional websit.
+=======
+**[Portfolio Project]** This is a project that makes Micronauts learn about linter configurations and other project initial settings.
+
+**[Portfolio Presentation]** Hi there! My name is Emmanuel, and I'm excited to share with you a project I worked on last year called Portifolio In this video, I'll be discussing the most important aspects of this project, the skills I gained, the challenges I faced, and the future promise it holds. A portfolio is a powerful tool for developers, allowing clients to see your skills and previous projects. Throughout this project, I learned about CSS, HTML, semantic tags, responsive design, and debugging techniques. I also encountered challenges such as time management and lack of experience, but I'll share advice on how to overcome them. Lastly, I'll mention some additional features and how you can find the project on my GitHub account. Thank you for watching!
+
+https://github.com/sibomana123/MV__Portfolio/assets/113997349/c31bdf54-9ac0-4b25-a355-b2c4c1ae2407
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -122,18 +134,21 @@ Your working browser
 - Twitter: https://twitter.com/imbwebwee
  ## 🔭 Future Features <a name="future-features"></a>
 - [ ]  **[javascript]**
- In the future time I will use this setup to make my own Portfolio website where it's will include Others features of Javascript.
+ In the future time I will use this setup to make my own Portfolio website where it's will include other features of Javascript.
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
 ### Deployment
 
-Feel Free to check https://github.com/sibomana123/MV__Portfolio/issues
+Feel Free to check It's deployed using GitHub pages https://github.com/sibomana123/MV__Portfolio/issues
 ## 🙏 Acknowledgements <a name="acknowledgement">
-  I would like to thank @student-success and @mum for her vast support andguidancee she provide to me  
+  I would like to thank @student-success and @mum for the vast support and guidance they provide to me  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## ⭐️ Show your support <a name="support"></a>
 If you like this project, don't forget to give me a star.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 📝 License <a name="license"></a>
-This project is [MIT](MIT.md) licensed.
+
+This project is [MIT](./MIT.md) licensed.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
