@@ -1,9 +1,14 @@
 <a name="readme-top"></a>
+
 <div align="center">
   <br/>
-  <h3><b>Portfolio Microverse Project</b></h3>
+
+  <h3><b>Port Microverse Project</b></h3>
+
 </div>
+
 # 📗 Table of Contents
+
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -22,6 +27,7 @@
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)  
 - [📝 License](#license)
+
 # 📖 [Portfolio Project] <a name="about-project"></a>
 
 **[Portfolio Project]** These portfolio projects are beginner-friendly websites created using HTML, CSS, and JavaScript appear only on when you click menu icon. They follow best practices like using linters for debugging and GitFlow rules for version control. The projects showcase responsiveness, adapting to different devices. They offer an excellent learning experience, empowering beginners to hone their web development skills while building attractive and functional websit.
