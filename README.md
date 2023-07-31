@@ -31,7 +31,6 @@
 # 📖 [Portfolio Project] <a name="about-project"></a>
 
 **[Portfolio Project]** These portfolio projects are beginner-friendly websites created using HTML, CSS, and JavaScript appear only on when you click menu icon. They follow best practices like using linters for debugging and GitFlow rules for version control. The projects showcase responsiveness, adapting to different devices. They offer an excellent learning experience, empowering beginners to hone their web development skills while building attractive and functional websit.
-
 ## 🛠 Built With <a name="built-with"></a>
 
 html, css,javascript, git, github and linters.
