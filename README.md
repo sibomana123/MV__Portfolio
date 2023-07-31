@@ -139,6 +139,9 @@ Feel Free to check It's deployed using GitHub pages https://github.com/sibomana1
 ## ⭐️ Show your support <a name="support"></a>
 If you like this project, don't forget to give me a star.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 📝 License <a name="license"></a>
+
 This project is [MIT](MIT.md) licensed.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
