@@ -5,26 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <script src="https://kit.fontawesome.com/39e3f91239.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="desktopVersion.css">
-  <link rel="stylesheet" href="small_version.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-    <nav>
-      <a class="logo"href="#homa">Emmabgra</a>
-      <img class="menu" src="img/Union.svg" alt="">
-      <ul class="navbar__ul show__links">
-        <li class="navrbar__link"><a href="#portfolio">Portfolio</a></li>
-        <li class="navrbar__link"><a href="#about">About</a></li>
-        <li class="navrbar__link"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="togg">
-      
-    </div>
-  </header>
 
-    <section class="description headline">
+    <header>
+      <nav class="nav">
+        <a class="logo"href="#homa">Emmabgra</a>
+        <img class="menu" src="img/Union.svg" alt="">
+       <ul class="navbar__ul" id="navbar__ul">
+        <i class="fa-solid fa-xmark"></i>
+        <li><a href="#contact" class="navMenu">Contact</a></li>
+        <li><a href="#portfolio" class="navMenu">Portfolio</a></li>
+        <li><a href="#about" class="navMenu">About</a></li>
+      </ul>
+     </nav>
+    </header>
+
+
+                      <!-- ============HEADLINE SECTION ========================= -->
+
+    <section id="portfolio" class="description headline">
+      <div class="backImg">
       <h1 class="header">I’m Emmanuel. <br>
         Glad to see you!</h1>
       <p class="parg">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
@@ -37,8 +39,9 @@
         <li class="social__media__link"><a href="#twitter"><img class="social__media__img" src="img/github (2).svg" alt=""></a></li>
         <li class="social__media__link"><a href="#twitter"><img class="social__media__img" src="img/angellist.svg" alt=""></a></li>  
       </ul>
+    </div>
     </section>
-
+                       <!-- =============POST SECTION==================== -->
     
     <section class="post">
      <div class="post__container">
@@ -66,11 +69,8 @@
             <li class="skills__button"><button class="btn__skills">Javascript</button></li>
 
           </ul>
-       
-          <button class="see__proj__btn"><a href="">See Project</a></button>
-      
+            <button class="see__proj__btn" >See Project</button>
         </div>
-
       </div>
 
       <div class="post__div">
@@ -90,18 +90,14 @@
             <li class="skills__button"><button class="btn__skills">Html</button></li>
             <li class="skills__button"><button class="btn__skills">CSS</button></li>
             <li class="skills__button"><button class="btn__skills">Javascript</button></li>
-
           </ul>
-       
-          <button class="see__proj__btn"><a href="">See Project</a></button>
-      
+          <button class="see__proj__btn" >See Project</button>
         </div>
-
         <div class="post__side__img">
           <img class="post__img__mobile" src="img/Snapshoot Portfolio (2).svg" alt="">
         </div>        
-
       </div>
+
       
       <div class="post__div">
         <div class="post__side__img">
@@ -127,7 +123,7 @@
 
           </ul>
        
-          <button class="see__proj__btn"><a href="">See Project</a></button>
+          <button class="see__proj__btn" >See Project</button>
       
         </div>
 
@@ -157,7 +153,8 @@
 
           </ul>
        
-          <button class="see__proj__btn"><a href="">See Project</a></button>
+        <button class="see__proj__btn" >See Project</button>
+
       
         </div>
 
@@ -223,9 +220,10 @@
  </section>   
  
  
-<section class="contact__container">
+<section id="contact" class="contact__container">
   <div class="backgrnd">
-  <form action="">
+    
+  <form class="form__container" action="https://formspree.io/f/mzblzgdw" method="POST">
     <h1>Contact Me</h1>
     <p>Contact me
       If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
@@ -237,8 +235,9 @@
     <button class="get__in">Get In Touch</button>
       
   </form>
-  </div>
+    </div>
  </section>
 
+<script src="utility/menu.js"></script>
 </body>
 </html>
