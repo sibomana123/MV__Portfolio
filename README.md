@@ -127,14 +127,14 @@ Your working browser
 - Twitter: https://twitter.com/imbwebwee
  ## 🔭 Future Features <a name="future-features"></a>
 - [ ]  **[javascript]**
- In the future time I will use this setup to make my own Portfolio website where it's will include Others features of Javascript.
+ In the future time I will use this setup to make my own Portfolio website where it's will include other features of Javascript.
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
 ### Deployment
 
-Feel Free to check https://github.com/sibomana123/MV__Portfolio/issues
+Feel Free to check It's deployed using GitHub pages https://github.com/sibomana123/MV__Portfolio/issues
 ## 🙏 Acknowledgements <a name="acknowledgement">
-  I would like to thank @student-success and @mum for her vast support andguidancee she provide to me  
+  I would like to thank @student-success and @mum for the vast support and guidance they provide to me  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## ⭐️ Show your support <a name="support"></a>
 If you like this project, don't forget to give me a star.
